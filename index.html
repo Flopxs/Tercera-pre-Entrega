@@ -1,55 +1,121 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <script src="https://kit.fontawesome.com/367779f1f9.js" crossorigin="anonymous"></script>
+
+    <title>Inicio | Nekoma Store</title>
 </head>
+
+
+
 <body>
-    <div class="page-nav">
-        <h1>Tienda Manga </h1>
-        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="./index.html">Nekoma Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+
+
+<section class="animate__animated animate__fadeIn container-fluid carrusel-index w-25">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./images/nekoma-logo.png" class="d-block img-mobile" alt="nekoma high" />
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slide.webp" class="d-block img-mobile" alt="logo nekoma" />
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slide-2.webp" class="d-block img-mobile" alt="logo nekoma" />
+        </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+</section>
+    
+
+<section class="container section-cuadros">
+    <div class="row div-cuadros">
+      <div class="boxes col-lg-3 col-md-4 col-12">
+        <h2><i class="fa-regular fa-clock"></i>ENTREGA RÁPIDA</h2>
+        <p>Tu pedido en menos de 24 hs hábiles</p>
+      </div>
+
+      <div class="boxes col-lg-3 col-md-4 col-12">
+        <h2><i class="fa-solid fa-lock"></i>COMPRAS SEGURAS</h2>
+        <p>100% garantía en todas tus compras</p>
+      </div>
+
+      <div class="boxes col-lg-3 col-md-4 col-12">
+        <h2><i class="fa-solid fa-truck-fast"></i>ENVÍOS GRATIS ARG</h2>
+        <p>Para compras mayores a $5500</p>    
+      </div>
+
+      <div class="boxes col-lg-3 col-md-4 col-12">
+        <h2><i class="fa-solid fa-globe"></i>ENVÍOS GLOBALES</h2>
+        <p>Vamos estés donde estés, en cualquier país</p>
+      </div>
+      
     </div>
-    <div class="page-content">
-        <div class="product-container">
-            <h3>OYASUMI PUNPUN 01</h3>
-            <img src="images/product-1.jpg" />
-            <h2>$1500</h2>
-            <button class="button-add" onclick="add('product-1', 1500)">Agregar</button>
-        </div>
+  </section>
+    
 
-        <div class="product-container">
-            <h3>OYASUMI PUNPUN 02</h3>
-            <img src="images/product-2.jpg" />
-            <h2>$1200</h2>
-            <button class="button-add" onclick="add('product-2', 1200)">Agregar</button>
-        </div>
-
-        <div class="product-container">
-            <h3>OYASUMI PUNPUN 03</h3>
-            <img src="images/product-3.jpg" />
-            <h2>$900</h2>
-            <button class="button-add" onclick="add('product-3', 900)">Agregar</button>
-        </div>
-
-        <div class="product-container">
-            <h3>OYASUMI PUNPUN 04</h3>
-            <img src="images/product-4.jpg" />
-            <h2>$900</h2>
-            <button class="button-add" onclick="add('product-4', 900)">Agregar</button>
-        </div>
-
-        <div class="product-container">
-            <h3>OYASUMI PUNPUN 05</h3>
-            <img src="images/product-5.jpg" />
-            <h2>$900</h2>
-            <button class="button-add" onclick="add('product-5', 900)">Agregar</button>
-        </div>
-
-        <div class="product-container">
-            <h3>OYASUMI PUNPUN 06</h3>
-            <img src="images/product-6.jpg" />
-            <h2>$990</h2>
-            <button class="button-add" onclick="add('product-6', 990)">Agregar</button>
-        </div>
+<footer>
+    <div class="container footer-content">
+        <ul class="footer-info">
+            <li>Av.Corrientes 5240, Local 7</li>
+            <li>(011) 15-1122-3344</li>
+        </ul>
+        <ul class="footer-redes">
+            <li><i class="fab fa-whatsapp"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+        </ul>
     </div>
+    <p>© Nekoma Store 2021</p>
+    <p>Todos los derechos reservados</p>
+</footer>
+
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
+
 </body>
+</html>
+
+ 

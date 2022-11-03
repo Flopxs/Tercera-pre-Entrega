@@ -1,0 +1,214 @@
+[{
+    "id": 1,
+    "tipo": "Manga",
+    "nombre": "Oyasumi punpun 1",
+    "precio": 1200,
+    "foto": "../media/products/product-1.jpg"
+}, {
+    "id": 2,
+    "tipo": "Manga",
+    "nombre": "Oyasumi punpun 2",
+    "precio": 1200,
+    "foto": "../media/products/product-2.jpg"
+}, {
+    "id": 3,
+    "tipo": "Manga",
+    "nombre": "Oyasumi punpun 3",
+    "precio": 1200,
+    "foto": "../media/products/product-3.jpg"
+}, {
+    "id": 4,
+    "tipo": "Manga",
+    "nombre": "Oyasumi punpun 4",
+    "precio": 1200,
+    "foto": "../media/products/product-4.jpg"
+}, {
+    "id": 5,
+    "tipo": "Manga",
+    "nombre": "Oyasumi punpun 5",
+    "precio": 1200,
+    "foto": "../media/products/product-5.jpg"
+}, {
+    "id": 6,
+    "tipo": "Manga",
+    "nombre": "Mob Psycho 1",
+    "precio": 2000,
+    "foto": "../media/products/product-6.jpg"
+}, {
+    "id": 7,
+    "tipo": "Manga",
+    "nombre": "Mob Psycho 2",
+    "precio": 2000,
+    "foto": "../media/products/product-7.jpg"
+}, {
+    "id": 8,
+    "tipo": "Manga",
+    "nombre": "Mob Psycho 3",
+    "precio": 2000,
+    "foto": "../media/products/product-8.jpg"
+},
+{
+    "id": 9,
+    "tipo": "Manga",
+    "nombre": "Mob Psycho 4",
+    "precio": 2000,
+    "foto": "../media/products/product-9.jpg"
+},
+{
+    "id": 10,
+    "tipo": "Manga",
+    "nombre": "Mob Psycho 5",
+    "precio": 2000,
+    "foto": "../media/products/product-10.jpeg"
+}, {
+    "id": 11,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 1",
+    "precio": 990,
+    "foto": "../media/products/product-11.jpg"
+}, {
+    "id": 12,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 2",
+    "precio": 990,
+    "foto": "../media/products/product-12.png"
+}, {
+    "id": 13,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 3",
+    "precio": 990,
+    "foto": "../media/products/product-13.png"
+}, {
+    "id": 14,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 4",
+    "precio": 990,
+    "foto": "../media/products/product-14.png"
+}, {
+    "id": 15,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 5",
+    "precio": 990,
+    "foto": "../media/products/product-15.jpg"
+}, {
+    "id": 16,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 6",
+    "precio": 990,
+    "foto": "../media/products/product-16.jpg"
+}, {
+    "id": 17,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 7",
+    "precio": 990,
+    "foto": "../media/products/product-17.png"
+}, {
+    "id": 18,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 8",
+    "precio": 990,
+    "foto": "../media/products/product-18.png"
+}, {
+    "id": 19,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 9",
+    "precio": 990,
+    "foto": "../media/products/product-19.png"
+}, {
+    "id": 20,
+    "tipo": "Manga",
+    "nombre": "Chainsaw Man 10",
+    "precio": 990,
+    "foto": "../media/products/product-20.jpg"
+}, {
+    "id": 21,
+    "tipo": "Manga",
+    "nombre": "Ajin Semi-Humano 1",
+    "precio": 1200,
+    "foto": "../media/products/product-21.jpeg"
+}, {
+    "id": 22,
+    "tipo": "Manga",
+    "nombre": "Ajin Semi-Humano 2",
+    "precio": 1200,
+    "foto": "../media/products/product-22.jpg"
+}, {
+    "id": 23,
+    "tipo": "Manga",
+    "nombre": "Ajin Semi-Humano 3",
+    "precio": 1200,
+    "foto": "../media/products/product-23.jpeg"
+}, {
+    "id": 24,
+    "tipo": "Manga",
+    "nombre": "Ajin Semi-Humano 4",
+    "precio": 1200,
+    "foto": "../media/products/product-24.jpg"
+}, {
+    "id": 25,
+    "tipo": "Manga",
+    "nombre": "Ajin Semi-Humano 5",
+    "precio": 1200,
+    "foto": "../media/products/product-25.jpg"
+}, {
+    "id": 26,
+    "tipo": "Llavero",
+    "nombre": "Llavero Haikyu",
+    "precio": 2500,
+    "foto": "../media/products/product-26.png"
+}, {
+    "id": 27,
+    "tipo": "Llavero",
+    "nombre": "Llavero Kakashi",
+    "precio": 1000,
+    "foto": "../media/products/product-27.jpeg"
+}, {
+    "id": 28,
+    "tipo": "Llavero",
+    "nombre": "Llavero Saitama",
+    "precio": 1000,
+    "foto": "../media/products/product-28.png"
+}, {
+    "id": 29,
+    "tipo": "Llavero",
+    "nombre": "Llavero Goku",
+    "precio": 1850,
+    "foto": "../media/products/product-29.png"
+}, {
+    "id": 30,
+    "tipo": "Llavero",
+    "nombre": "Llavero Vegeta",
+    "precio": 1850,
+    "foto": "../media/products/product-30.png"
+}, {
+    "id": 31,
+    "tipo": "Llavero",
+    "nombre": "Llavero Pikachu",
+    "precio": 1000,
+    "foto": "../media/products/product-31.jpg"
+}, {
+    "id": 32,
+    "tipo": "Figura",
+    "nombre": "Figura Inosuke",
+    "precio": 5500,
+    "foto": "../media/products/product-32.png"
+}, {
+    "id": 33,
+    "tipo": "Figura",
+    "nombre": "Busto Mazinger Z",
+    "precio": 9500,
+    "foto": "../media/products/product-33.png"
+}, {
+    "id": 34,
+    "tipo": "Figura",
+    "nombre": "Figura Slam Dunk - Hanamichi",
+    "precio": 7500,
+    "foto": "../media/products/product-34.png"
+}, {
+    "id": 35,
+    "tipo": "Figura",
+    "nombre": "Figura Eva-01",
+    "precio": 15000,
+    "foto": "../media/products/product-35.jpg"
+}
+]
